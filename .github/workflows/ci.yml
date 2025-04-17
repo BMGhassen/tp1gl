@@ -27,7 +27,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: spring-boot-app
-          path: tp1gl/target/*.jar
+          path: target/*.jar
 
       - name: Print success message
         run: echo "Build and tests completed successfully!"
